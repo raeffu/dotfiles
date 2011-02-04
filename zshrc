@@ -21,7 +21,7 @@ plugins=(organization osx emacs git ruby rails brew gem)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-alias cls='clear'
+#alias cls='clear'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
