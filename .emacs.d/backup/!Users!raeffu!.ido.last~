@@ -1,0 +1,137 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/raeffu/projects/e-max/bundles/" . "ergonomic/")
+ ("/Users/raeffu/projects/e-max/" . "bundles/")
+ ("/Users/raeffu/projects/js/" . "css/")
+ ("/Users/raeffu/projects/ruby/lab/" . "rexml/")
+ ("/Users/raeffu/projects/ruby/" . "lab/")
+ ("/Users/" . "raeffu/")
+ ("/Users/raeffu/projects/raeffu.ch/public/facebox/" . "src/")
+ ("/Users/raeffu/projects/raeffu.ch/public/" . "css/")
+ ("/Users/raeffu/projects/emacs-configs/private/" . "languages/")
+ ("/Users/raeffu/projects/emacs-configs/" . "private/")
+ ("/Users/raeffu/projects/raeffu.ch/" . "views/")
+ ("/Users/raeffu/projects/" . "e-max/")
+ ("/Users/raeffu/Dropbox/" . "org/")
+ ("/Users/raeffu/" . "projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/raeffu/projects/e-max/bundles/ergonomic/"
+ "/Users/raeffu/projects/js/"
+ "/Users/raeffu/projects/raeffu.ch/views/"
+ "/Users/raeffu/projects/raeffu.ch/public/css/"
+ "/Users/raeffu/Dropbox/org/"
+ "/Users/raeffu/projects/emacs-configs/private/"
+ "/Users/raeffu/Downloads/"
+ "/Users/raeffu/projects/ruby_koans/koans/"
+ "/Users/raeffu/projects/raeffu.ch/"
+ "/Users/raeffu/projects/ruby/lab/"
+ "/Users/raeffu/projects/ruby/lab/rexml/"
+ "/Users/raeffu/projects/raeffu.ch/public/facebox/src/"
+ "/Users/raeffu/projects/emacs-configs/private/languages/"
+ "/Users/raeffu/projects/raeffu.ch/test/"
+ "/Users/raeffu/projects/emacs-configs/private/extensions/"
+ "/Users/raeffu/projects/sinatra/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "bundle.el"
+ "enlarge.el"
+ "main.html"
+ "layout.erb"
+ "main.css"
+ "notes.org"
+ "bindings.el"
+ "copy_params.js"
+ "copy_params.txt"
+ "about_arrays.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/raeffu/projects/e-max/bundles/ergonomic/" (20301 4066) "enlarge.el" "bundle.el" "../" "./")
+
+ ("/Users/raeffu/projects/e-max/" (20301 4066) "vendor/" "templates/" "scripts/" "README.md" "lib/" "History.txt" "e-max.el" "bundles/" "bin/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/raeffu/" (20301 4213) "Work/" "vmware/" "tmp/" "Sites/" "Public/" "projects/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" ".zshrc" ".zsh_history.XgadfA" ".zsh_history.W5vItW" ".zsh_history.Vtfz90" ".zsh_history.SWndmK" ".zsh_history.sgGNZW" ".zsh_history.rQouB3" ".zsh_history.PHcqka" ".zsh_history.oySh5z" ".zsh_history.gNvMVB" ".zsh_history.gaEZ1a" ".zsh_history.8n8RG1" ".zsh_history.1oxR6p" ".zsh_history.1LLH53" ".zsh_history.1GgPT2" ".zsh_history" ".zsh-update" ".zcompdump.raeffu.home.2807" ".zcompdump.raeffu.home.2066" ".zcompdump" ".Xcode/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TERMINAL_COLORS" ".ssh/" ".smex-items" ".rvmrc" ".rvm/" ".rspec" ".recentf" ".README" ".oh-my-zsh/" ".irbrc" ".irb_history" ".irb-history" ".ido.last" ".heroku/" ".gitignore" ".gitconfig" ".gemrc" ".gem/" ".emacs.d-pre-e-max-20120223-101359/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox/" ".cups/" ".CFUserTextEncoding" ".bzr.log" ".bash_profile" ".bash_history" ".anyconnect" ".adobe/" "../" "./")
+
+ ("/Users/raeffu/projects/e-max/bundles/" (20294 420) "yaml/" "xml/" "terminal/" "spelling/" "snippets/" "ruby/" "rails/" "python/" "project/" "power-edit/" "plone/" "org/" "maximize/" "markdown/" "lisp/" "latex/" "javascript/" "java/" "irc/" "html/" "haml-and-sass/" "git/" "erlang/" "ergonomic/" "e-max-developer/" "diff/" "cucumber/" "css/" "completion/" "company/" "coffee-script/" "accessibility/" "../" "./")
+
+ ("/Users/raeffu/projects/e-max/lib/" (20294 420) "variables.el" "themes.el" "setup.el" "platforms/" "perspective.el" "hooks.el" "defun.el" "compilation.el" "bundles.el" "../" "./")
+
+ ("/Users/raeffu/projects/" (20294 2367) "sinatra/" "ruby_koans/" "ruby/" "rails/" "raeffu.ch/" "oh-my-zsh/" "novo/" "mustache/" "kwiki/" "js/" "jquery/" "Icon
+" "heroku/" "emacs-configs/" "e-max/" "dotfiles/" ".DS_Store" "../" "./")
+
+ ("/Users/raeffu/projects/js/" (20254 36283) "test.js" "README.md" "main.html" "css/" ".git/" "../" "./")
+
+ ("/Users/raeffu/projects/jquery/" (20254 36285) "README" ".git/" ".#README" "../" "./")
+
+ ("/Users/raeffu/Downloads/" (20254 30510) "stockphoto-9292.jpg" "Jobcenter-Liste_20120109_DE.pdf" "Jobcenter-Liste_20111130_DE.pdf" "akt/" ".localized" ".DS_Store" " Downloads " "../" "./")
+
+ ("/Users/raeffu/projects/jquery/.git/" (20254 32305) "refs/" "objects/" "info/" "hooks/" "HEAD" "description" "config" "../" "./")
+
+ ("/Users/raeffu/projects/js/css/" (20144 20685) ".#main.css" "../" "./")
+
+ ("/Users/raeffu/Dropbox/" (20144 16845) "tmp/" "swisscom/" "Ruby/" "Public/" "projects/" "Photos/" "org/" "Icon
+" ".DS_Store" ".dropbox.cache/" "../" "./")
+
+ ("/Users/raeffu/Dropbox/org/" (19910 42763) "notes.org" "../" "./")
+
+ ("/Users/raeffu/projects/ruby/lab/rexml/" (19929 30783) "code1.rb" "bibliography.xml" "../" "./")
+
+ ("/Users/raeffu/projects/ruby/lab/" (19928 63989) "unit_test.rb" "test.rb" "strings.txt" "rexml/" "ordinal" "module2.rb" "module1.rb" "minitests.rb" "lib.rb" "file.txt" "calc.rb" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/public/css/" (20038 31817) "main.css" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/" (20042 44181) "views/" "test/" "README.md" "Rakefile" "public/" "notes.org" "main.rb" "config.ru" ".gitignore" ".git/" ".gems" "../" "./")
+
+ ("/Users/raeffu/projects/ruby_koans/koans/" (20106 8855) "triangle.rb" "test_helper.rb" "README.rdoc" "Rakefile" "path_to_enlightenment.rb" "GREED_RULES.txt" "first_test.rb" "example_file.txt" "edgecase.rb" "code_mash.rb" "autotest/" "array_test.rb" "about_true_and_false.rb" "about_triangle_project_2.rb" "about_triangle_project.rb" "about_symbols.rb" "about_strings.rb" "about_scoring_project.rb" "about_scope.rb" "about_sandwich_code.rb" "about_regular_expressions.rb" "about_proxy_object_project.rb" "about_open_classes.rb" "about_objects.rb" "about_nil.rb" "about_modules.rb" "about_methods.rb" "about_message_passing.rb" "about_java_interop.rb" "about_iteration.rb" "about_inheritance.rb" "about_hashes.rb" "about_extra_credit.rb" "about_exceptions.rb" "about_dice_project.rb" "about_control_statements.rb" "about_constants.rb" "about_classes.rb" "about_class_methods.rb" "about_blocks.rb" "about_asserts.rb" "about_arrays.rb" "about_array_assignment.rb" ".path_progress" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/private/" (20136 9045) "snippets/" "recipes/" "platforms/" "misc.el" "libraries.el" "languages/" "extensions/" "el-get-sources.el" "el-get-init.el" "display.el" "defun.el" "customize.el" "custom/" "bindings.el" "backup.el" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/" (20136 8631) "vendor/" "README.markdown" "private/" "places" "org-clock-save.el" "misc/" "init.el" "elpa/" "el-get/" "COPYING" "backups.auto-saves-924-raeffu~" "backups.auto-saves-4027-raffi~" "backups.auto-saves-1607-raffi~" "backups/" "ac-comphist.dat" ".gitignore" ".git/" "#!Users!raeffu!Projects!raeffu.ch!.git!COMMIT_EDITMSG#" "../" "./")
+
+ ("/Users/raeffu/projects/novo/idm/js/reports/" (20136 9379) "HTMLReportUser.js" "HTMLReportRole.js" "ErrorLog.js" "ChangeLogUser.js" "ChangeLogRole.js" "../" "./")
+
+ ("/Users/raeffu/projects/novo/" (20130 38484) "README" "idm/" ".git/" "../" "./")
+
+ ("/Users/raeffu/projects/novo/idm/" (20130 38178) "sql/" "js/" ".DS_Store" "../" "./")
+
+ ("/Users/raeffu/projects/novo/idm/js/" (20136 5886) "sap_getMskeyvalueForMskey.js" "sap_generateID.js" "sap_generateHRID.js" "sap_generateBname.js" "sap_calcID.js" "reports/" "custom_uProvision.js" "custom_reconvertTelNr.js" "custom_PasswordDisable.js" "custom_modifyUser.js" "custom_logPar.js" "custom_initializePassword.js" "custom_getValidDates.js" "custom_getTempDN.js" "custom_getOU.js" "custom_getMXREFOUMAP.js" "custom_getMskeyvalueForMskey.js" "custom_getMSKEYforAllockey.js" "custom_getManagerMSKEY.js" "custom_getDisplaynameForMskey.js" "custom_generateMSKEYVALUE.js" "custom_generateID.js" "custom_generateHRID.js" "custom_extendLog.js" "custom_copyUser.js" "custom_copyParams_extended.js" "custom_copyParams.js" "custom_convertTelNr.js" ".DS_Store" "../" "./")
+
+ ("/Users/raeffu/projects/ruby_koans/" (19845 57719) "src/" "README.rdoc" "rakelib/" "Rakefile" "MIT-LICENSE" "koans/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/views/" (20025 35178) "test_part.erb" "old_index.erb" "lorem.erb" "layout.erb" "image.erb" "helloworld.erb" "albums_nav.erb" "albums_home.erb" "albums.rb" "albums.erb" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/public/" (20025 35155) "images/" "css/" "colorbox/" "albums/" ".DS_Store" "../" "./")
+
+ ("/Users/raeffu/projects/ruby/" (19845 57719) "README" "Rakefile" "lab/" ".git/" "../" "./")
+
+ ("/Users/" (19843 59218) "Shared/" "raeffu/" ".localized" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/public/facebox/src/" (19905 28721) "loading.gif" "facebox.js" "facebox.css" "closelabel.png" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/public/facebox/" (19889 8604) "src/" "README.md" "LICENSE" "lib/" "examples/" ".gitignore" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/private/languages/" (19855 10913) "yaml.el" "textile.el" "sql.el" "ruby.el" "perl.el" "objectivec.el" "lisp.el" "javascript.el" "java.el" "html.el" "haml.el" "erlang.el" "diff.el" "cucumber.el" "css.el" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/private/extensions/" (19850 9273) "spelling.el" "registers.el" "recentf.el" "rebind_commands.el" "perspectives.el" "org.el" "jabber.el" "ido.el" "grep.el" "git.el" "coding_hook.el" "../" "./")
+
+ ("/Users/raeffu/projects/raeffu.ch/test/" (19854 3047) "testing.rb" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/private/custom/" (19845 57718) "w32-custom.el" "custom.el" "cocoa-emacs-custom.el" "carbon-emacs-custom.el" "aquamacs-custom.el" "../" "./")
+
+ ("/Users/raeffu/projects/sinatra/" (19850 8907) "views/" "Rakefile" "main.rb" ".git/" "../" "./")
+
+ ("/Users/raeffu/projects/emacs-configs/el-get/" (19845 57718) "yari/" "yaml-mode/" "theme-roller/" "senny-yasnippet/" "senny-textmate/" "senny-textile-mode/" "senny-rspec-mode/" "senny-rhtml-mode/" "senny-popwin/" "senny-perspective/" "senny-mode-compile/" "senny-minibuffer-complete-cycle/" "senny-markdown-mode/" "senny-magit/" "senny-ido-hacks/" "senny-ibuffer/" "senny-ert/" "senny-cucumber/" "senny-csv-mode/" "senny-browse-kill-ring-plus/" "senny-browse-kill-ring/" "senny-better-registers/" "senny-auto-complete/" "sass-mode/" "rvm/" "ruby-mode/" "rinari/" "maxframe/" "java-mode-indent-annotations/" "haml-mode/" "flymake-point/" "erc-highlight-nicknames/" "el-get/" ".status.el" ".loaddefs.elc" ".loaddefs.el" "../" "./")
+
+ ("/Users/raeffu/projects/sinatra/views/" (19849 52710) "index.erb" ".#index.erb" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
