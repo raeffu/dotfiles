@@ -238,7 +238,7 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>502 330 924 485 0 0 1920 1058 </string>
+	<string>502 306 924 485 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1920 1080 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
@@ -1740,7 +1740,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2012-02-23T09:04:28Z</date>
+	<date>2012-04-03T08:30:19Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -4825,6 +4825,8 @@
 			<dict>
 				<key>Height</key>
 				<real>1080</real>
+				<key>Hide After Opening</key>
+				<false/>
 				<key>Old Height</key>
 				<real>1029</real>
 				<key>Old Width</key>
@@ -5017,6 +5019,8 @@
 													</dict>
 													<key>Background Image Location</key>
 													<string></string>
+													<key>Blend</key>
+													<real>0.30000001192092896</real>
 													<key>Blink Allowed</key>
 													<false/>
 													<key>Blinking Cursor</key>
@@ -5087,6 +5091,8 @@
 													</dict>
 													<key>Guid</key>
 													<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
+													<key>Hide After Opening</key>
+													<false/>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -5757,6 +5763,8 @@
 													</dict>
 													<key>Background Image Location</key>
 													<string></string>
+													<key>Blend</key>
+													<real>0.30000001192092896</real>
 													<key>Blink Allowed</key>
 													<false/>
 													<key>Blinking Cursor</key>
@@ -5827,6 +5835,8 @@
 													</dict>
 													<key>Guid</key>
 													<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
+													<key>Hide After Opening</key>
+													<false/>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -6517,6 +6527,8 @@
 													</dict>
 													<key>Background Image Location</key>
 													<string></string>
+													<key>Blend</key>
+													<real>0.30000001192092896</real>
 													<key>Blink Allowed</key>
 													<false/>
 													<key>Blinking Cursor</key>
@@ -6587,6 +6599,8 @@
 													</dict>
 													<key>Guid</key>
 													<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
+													<key>Hide After Opening</key>
+													<false/>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -7257,6 +7271,8 @@
 													</dict>
 													<key>Background Image Location</key>
 													<string></string>
+													<key>Blend</key>
+													<real>0.30000001192092896</real>
 													<key>Blink Allowed</key>
 													<false/>
 													<key>Blinking Cursor</key>
@@ -7327,6 +7343,8 @@
 													</dict>
 													<key>Guid</key>
 													<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
+													<key>Hide After Opening</key>
+													<false/>
 													<key>Horizontal Spacing</key>
 													<real>1</real>
 													<key>Idle Code</key>
@@ -7863,6 +7881,8 @@
 						</dict>
 					</dict>
 				</array>
+				<key>TerminalGuid</key>
+				<string>pty-B4D1A40A-0CB9-4E44-97B2-FF0B26245F2A</string>
 				<key>Width</key>
 				<real>1920</real>
 				<key>Window Type</key>
