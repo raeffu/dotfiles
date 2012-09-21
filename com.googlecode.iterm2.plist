@@ -193,15 +193,15 @@
 	<key>HotKeyBookmark</key>
 	<string>5D756834-A830-4B86-A794-3BCBCF99EC4C</string>
 	<key>HotKeyTogglesWindow</key>
-	<false/>
+	<true/>
 	<key>Hotkey</key>
-	<false/>
+	<true/>
 	<key>HotkeyChar</key>
-	<integer>32</integer>
+	<integer>167</integer>
 	<key>HotkeyCode</key>
-	<integer>49</integer>
+	<integer>10</integer>
 	<key>HotkeyModifiers</key>
-	<integer>1048840</integer>
+	<integer>256</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
@@ -1124,6 +1124,8 @@
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
+			<key>Blend</key>
+			<real>0.30000001192092896</real>
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
@@ -1194,6 +1196,8 @@
 			</dict>
 			<key>Guid</key>
 			<string>5D756834-A830-4B86-A794-3BCBCF99EC4C</string>
+			<key>Hide After Opening</key>
+			<false/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -1740,7 +1744,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2012-04-03T08:30:19Z</date>
+	<date>2012-04-23T17:09:04Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
