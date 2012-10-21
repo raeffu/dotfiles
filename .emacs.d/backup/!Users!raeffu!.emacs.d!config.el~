@@ -26,9 +26,9 @@
         snippets
 
         ;; cabbage-developer
-        rails
+        ;; rails
         ;; latex
-        org
+        ;; org
         ;; plone
         ;; eclim
         ;; eclim-auto-complete
