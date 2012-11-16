@@ -44,6 +44,13 @@
 	<real>0.99374997615814209</real>
 	<key>GlobalKeyMap</key>
 	<dict>
+		<key>0x61-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>18</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
 		<key>0x64-0x100000</key>
 		<dict>
 			<key>Action</key>
@@ -51,28 +58,7 @@
 			<key>Text</key>
 			<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
 		</dict>
-		<key>0x69-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>20</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0x6a-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>18</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0x6b-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>21</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0x6c-0x40000</key>
+		<key>0x64-0x40000</key>
 		<dict>
 			<key>Action</key>
 			<integer>19</integer>
@@ -85,6 +71,20 @@
 			<integer>29</integer>
 			<key>Text</key>
 			<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
+		</dict>
+		<key>0x73-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>21</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x77-0x40000</key>
+		<dict>
+			<key>Action</key>
+			<integer>20</integer>
+			<key>Text</key>
+			<string></string>
 		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
@@ -238,9 +238,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>502 306 924 485 0 0 1920 1058 </string>
+	<string>381 280 924 485 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1080 0 0 1920 1058 </string>
+	<string>0 0 1680 1050 0 0 1680 1028 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1744,7 +1744,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2012-04-23T17:09:04Z</date>
+	<date>2012-11-16T19:38:20Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
