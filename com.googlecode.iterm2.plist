@@ -246,7 +246,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>411 571 924 485 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>377 190 570 401 0 0 2560 1440 </string>
+	<string>0 0 2560 1440 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>393 647 766 502 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
@@ -950,7 +950,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.18576645851135254</real>
+			<real>0.056541234254837036</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -1688,6 +1688,8 @@
 			<string>/Users/raeffu</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1750,7 +1752,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2013-03-05T21:30:55Z</date>
+	<date>2013-06-17T17:13:07Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -7915,6 +7917,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>1.0.0.20130302</string>
+	<string>1.0.0.20130319</string>
 </dict>
 </plist>
