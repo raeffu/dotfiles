@@ -16,4 +16,7 @@
   (global-unset-key (kbd "C-<"))
   (cabbage-global-set-key (kbd "C-<") 'next-buffer)
 
+  ;; set basic indent
+  (setq c-basic-offset 2)
+
 ))
