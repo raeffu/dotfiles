@@ -19,4 +19,6 @@
   ;; set basic indent
   (setq c-basic-offset 2)
 
+  (add-to-list 'auto-mode-alist '("\\.plugin.zsh$" . shell-script-mode))
+
 ))
