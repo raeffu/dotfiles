@@ -1,7 +1,17 @@
+### Prerequisite
+
+Install rake gem:
+```
+> gem install rake
+```
+
 ### Installation
 
 ```
-rake install
+> rake [install]
 ```
 
-TODO: modify rakefile: copy .emacs.d folder to ~/
+To install emacs files execute
+```
+> rake emacs
+```
