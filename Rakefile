@@ -7,7 +7,7 @@ desc "install the dot files into user's home directory"
 task :install do
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README.md LICENSE misc windows].include? file
+    next if %w[Rakefile README.md LICENSE misc windows oh-my-zsh].include? file
 
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"))
       if File.identical? file, File.join(ENV['HOME'], ".#{file.sub('.erb', '')}")
@@ -59,6 +59,26 @@ task :emacs do
       end
     else
       link_file(file)
+    end
+  end
+end
+
+task :zsh_git do
+  replace_all = false
+  Dir.chdir("oh-my-zsh/")
+
+  if File.identical? "git.plugin.zsh", "~/.oh-my-zsh/plugins/git/git.plugin.zsh"
+    puts "identical git.plugin.zsh"
+  else
+    print "overwrite git.plugin.zsh? [ynq] "
+    case $stdin.gets.chomp
+    when 'y'
+      system %Q{rm -f "$HOME/.oh-my-zsh/plugins/git/git.plugin.zsh"}
+      system %Q{cp -f "git.plugin.zsh" "$HOME/.oh-my-zsh/plugins/git/"}
+    when 'q'
+      exit
+    else
+      puts "skipping git.plugin.zsh"
     end
   end
 end
