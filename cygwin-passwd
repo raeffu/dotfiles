@@ -1,8 +1,0 @@
-SYSTEM:*:18:544:,S-1-5-18::
-LocalService:*:19:544:U-NT AUTHORITY\LocalService,S-1-5-19::
-NetworkService:*:20:544:U-NT AUTHORITY\NetworkService,S-1-5-20::
-Administratoren:*:544:544:,S-1-5-32-544::
-TrustedInstaller:*:4294967294:4294967294:U-NT SERVICE\TrustedInstaller,S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464::
-admnbc03:unused:500:513:U-N109\admnbc03,S-1-5-21-1732853871-621722379-132287709-500:/home/admnbc03:/bin/bash
-Gast:unused:501:513:U-N109\Gast,S-1-5-21-1732853871-621722379-132287709-501:/home/Gast:/bin/bash
-lar02:unused:15511:10513:U-NBC\lar02,S-1-5-21-208107322-1704425400-355810188-5511:/cygdrive/c/Users/lar02/Documents:/bin/bash

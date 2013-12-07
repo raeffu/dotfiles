@@ -1,6 +1,5 @@
 ;; This is the user customization file. It gets only loaded when the username
 ;; of the logged in user matches the filename.
-(setq cabbage-theme 'color-theme-lazy)
 
 ;; load last
 (add-hook 'cabbage-initialized-hook
