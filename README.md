@@ -11,7 +11,7 @@ Install rake gem:
 > rake [install]
 ```
 
-To install emacs files execute
+To install emacs files (links all files or folders in .emacs.d/ )
 ```
 > rake emacs
 ```
