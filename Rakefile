@@ -63,7 +63,7 @@ task :emacs do
   end
 end
 
-task :zsh_git do
+task :zsh do
   replace_all = false
   Dir.chdir("oh-my-zsh/")
 
