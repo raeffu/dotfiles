@@ -26,8 +26,17 @@ source $ZSH/oh-my-zsh.sh
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+
+
+# Setting PATH env var
+
+# Added by the Heroku Toolbelt
+PATH="/usr/local/heroku/bin:$PATH"
 
 # postgresql path
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
+# Homebrew
+PATH="/usr/local/bin:$PATH"
+
+export PATH
