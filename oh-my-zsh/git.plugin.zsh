@@ -3,9 +3,11 @@ alias g='git'
 compdef g=git
 
 alias ga='git add'
+compdef _git ga=git-add
 # alias gaa='git add .'
 alias gaa='git add -A'
 alias gau='git add -u'
+alias gai='git add -i'
 
 alias grm='git rm'
 alias gm='git merge --no-ff'
@@ -100,9 +102,6 @@ alias gls='git log --oneline'
 compdef _git glg=git-log
 alias gss='git status -s'
 compdef _git gss=git-status
-
-alias ga='git add'
-compdef _git ga=git-add
 
 # alias grh='git reset HEAD'
 alias grh='git reset --hard'
@@ -210,3 +209,5 @@ alias gignore='git update-index --assume-unchanged'
 alias gunignore='git update-index --no-assume-unchanged'
 # list temporarily ignored files
 alias gignored='git ls-files -v | grep "^[[:lower:]]"'
+
+alias gconf='cat $(git rev-parse --show-toplevel || echo ".")/.git/config'
