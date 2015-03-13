@@ -20,6 +20,8 @@ plugins=(organization osx emacs git ruby rails brew gem)
 
 source $ZSH/oh-my-zsh.sh
 
+export LANG=en_US.UTF-8
+
 # Customize to your needs...
 #alias cls='clear'
 
