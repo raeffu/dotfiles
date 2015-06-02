@@ -42,3 +42,5 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 PATH="/usr/local/bin:$PATH"
 
 export PATH
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
