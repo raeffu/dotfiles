@@ -23,8 +23,6 @@ compdef _git gl=git-pull
 alias glr='git pull --rebase'
 compdef _git glr=git-pull
 
-alias gr='git remote'
-alias grs='git remote show'
 alias gf='git fetch'
 alias gft='git fetch --tags'
 
@@ -61,18 +59,6 @@ compdef _git gcm=git-commit
 alias gco='git checkout'
 compdef _git gco=git-checkout
 
-alias gr='git remote'
-compdef _git gr=git-remote
-alias grv='git remote -v'
-compdef _git grv=git-remote
-alias grmv='git remote rename'
-compdef _git grmv=git-remote
-alias grrm='git remote remove'
-compdef _git grrm=git-remote
-alias grset='git remote set-url'
-compdef _git grset=git-remote
-alias grup='git remote update'
-compdef _git grset=git-remote
 alias grbi='git rebase -i'
 compdef _git grbi=git-rebase
 alias grbc='git rebase --continue'
