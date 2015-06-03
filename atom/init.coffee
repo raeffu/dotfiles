@@ -12,3 +12,6 @@
 #   editor = editorView.getEditor()
 #   if path.extname(editor.getPath()) is '.md'
 #     editor.setSoftWrap(true)
+
+# dirty fix for ergonomic-cursor
+atom.keymaps.partialMatchTimeout = 1
