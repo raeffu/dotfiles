@@ -16,3 +16,5 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+'.editor':
+  'cmd-§': 'editor:toggle-line-comments'
