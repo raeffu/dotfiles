@@ -1,2 +1,7 @@
 .DS_Store
 gitconfig
+atom/*
+!atom/init.coffee
+!atom/keymap.cson
+!atom/snippets.cson
+!atom/styles.less
