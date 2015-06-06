@@ -7,7 +7,7 @@ desc "install the dot files into user's home directory"
 task :install do
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README.md LICENSE misc windows oh-my-zsh].include? file
+    next if %w[Rakefile README.md LICENSE misc windows oh-my-zsh .emacs.d].include? file
 
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"))
       if File.identical? file, File.join(ENV['HOME'], ".#{file.sub('.erb', '')}")
@@ -34,49 +34,27 @@ task :install do
   end
 end
 
-task :emacs do
-  replace_all = false
-  Dir['.emacs.d/*'].each do |file|
-
-    if File.exist?(File.join(ENV['HOME'], file))
-      if File.identical? file, File.join(ENV['HOME'], file)
-        puts "identical ~/#{file}"
-      elsif replace_all
-        replace_file(file)
-      else
-        print "overwrite ~/#{file}? [ynaq] "
-        case $stdin.gets.chomp
-        when 'a'
-          replace_all = true
-          replace_file(file)
-        when 'y'
-          replace_file(file)
-        when 'q'
-          exit
-        else
-          puts "skipping ~/#{file}"
-        end
-      end
-    else
-      link_file(file)
-    end
-  end
-end
-
+desc "link oh-my-zsh files from ~/projects/dotfiles/oh-my-zsh to ~/.oh-my-zsh. dotfiles overwrites .oh-my-zsh for given files."
 task :zsh do
   replace_all = false
   Dir['oh-my-zsh/*'].each do |file|
-    puts file
-    puts File.directory?(file)
+    traverse_omz(file)
+  end
+end
+
+def traverse_omz(path)
+  if(File.directory?(path))
+    Dir[path+"/*"].each do |file|
+      traverse_omz(file)
+    end
+  else
+    puts "\e[32mleaf found: \e[0m" + path
+    replace_file(path)
   end
 end
 
 def replace_file(file)
-  if file =~ /.emacs.d/
-    system %Q{rm -rf "$HOME/#{file}"}
-  else
-    system %Q{rm -rf "$HOME/.#{file.sub('.erb', '')}"}
-  end
+  system %Q{rm -rf "$HOME/.#{file.sub('.erb', '')}"}
   link_file(file)
 end
 
@@ -86,9 +64,6 @@ def link_file(file)
     File.open(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"), 'w') do |new_file|
       new_file.write ERB.new(File.read(file)).result(binding)
     end
-  elsif file =~ /.emacs.d/
-    puts "linking ~/#{file}"
-    system %Q{ln -s "$PWD/#{file}" "$HOME/#{file}"}
   else
     puts "linking ~/.#{file}"
     system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
