@@ -238,9 +238,11 @@
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
 	<key>NSWindow Frame Preferences</key>
-	<string>214 330 924 485 0 0 1440 900 </string>
+	<string>592 662 924 485 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>0 1440 2560 429 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>393 647 766 502 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1787,10 +1789,12 @@
 			<string>/Users/raeffu</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>454852820.88699901</real>
+	<real>453632975.04768401</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>455194159.66183603</real>
+	<real>454237842.74384201</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
