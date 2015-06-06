@@ -65,21 +65,9 @@ end
 
 task :zsh do
   replace_all = false
-  Dir.chdir("oh-my-zsh/")
-
-  if File.identical? "git.plugin.zsh", "~/.oh-my-zsh/plugins/git/git.plugin.zsh"
-    puts "identical git.plugin.zsh"
-  else
-    print "overwrite git.plugin.zsh? [ynq] "
-    case $stdin.gets.chomp
-    when 'y'
-      system %Q{rm -f "$HOME/.oh-my-zsh/plugins/git/git.plugin.zsh"}
-      system %Q{cp -f "git.plugin.zsh" "$HOME/.oh-my-zsh/plugins/git/"}
-    when 'q'
-      exit
-    else
-      puts "skipping git.plugin.zsh"
-    end
+  Dir['oh-my-zsh/*'].each do |file|
+    puts file
+    puts File.directory?(file)
   end
 end
 

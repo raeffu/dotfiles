@@ -1790,7 +1790,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454852820.88699901</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>455054018.08733898</real>
+	<real>455194159.66183603</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1853,7 +1853,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-06-03T14:22:23Z</date>
+	<date>2015-06-05T10:47:49Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -5133,7 +5133,7 @@
 											<key>Automatically Log</key>
 											<false/>
 											<key>BM Growl</key>
-											<true/>
+											<false/>
 											<key>Background Color</key>
 											<dict>
 												<key>Blue Component</key>
@@ -5796,11 +5796,11 @@
 											<string>/Users/raeffu</string>
 										</dict>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>122</integer>
 										<key>Rows</key>
 										<integer>59</integer>
 										<key>Working Directory</key>
-										<string>/Users/rlaubscher</string>
+										<string>/Users/rlaubscher/projects/bfh/SoED</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -5809,7 +5809,7 @@
 										<key>height</key>
 										<real>900</real>
 										<key>width</key>
-										<real>718</real>
+										<real>865</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -5979,7 +5979,7 @@
 													<key>Automatically Log</key>
 													<false/>
 													<key>BM Growl</key>
-													<true/>
+													<false/>
 													<key>Background Color</key>
 													<dict>
 														<key>Blue Component</key>
@@ -6642,7 +6642,7 @@
 													<string>/Users/raeffu</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>80</integer>
 												<key>Rows</key>
 												<integer>29</integer>
 												<key>Working Directory</key>
@@ -6655,7 +6655,7 @@
 												<key>height</key>
 												<real>449</real>
 												<key>width</key>
-												<real>721</real>
+												<real>574</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -6822,7 +6822,7 @@
 													<key>Automatically Log</key>
 													<false/>
 													<key>BM Growl</key>
-													<true/>
+													<false/>
 													<key>Background Color</key>
 													<dict>
 														<key>Blue Component</key>
@@ -7485,7 +7485,7 @@
 													<string>/Users/raeffu</string>
 												</dict>
 												<key>Columns</key>
-												<integer>101</integer>
+												<integer>80</integer>
 												<key>Rows</key>
 												<integer>29</integer>
 												<key>Working Directory</key>
@@ -7498,7 +7498,7 @@
 												<key>height</key>
 												<real>450</real>
 												<key>width</key>
-												<real>721</real>
+												<real>574</real>
 												<key>x</key>
 												<real>0.0</real>
 												<key>y</key>
@@ -7513,9 +7513,9 @@
 										<key>height</key>
 										<real>900</real>
 										<key>width</key>
-										<real>721</real>
+										<real>574</real>
 										<key>x</key>
-										<real>719</real>
+										<real>866</real>
 										<key>y</key>
 										<real>0.0</real>
 									</dict>
