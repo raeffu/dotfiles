@@ -48,7 +48,6 @@ def traverse_omz(path)
       traverse_omz(file)
     end
   else
-    puts "\e[32mleaf found: \e[0m" + path
     replace_file(path)
   end
 end
@@ -65,7 +64,7 @@ def link_file(file)
       new_file.write ERB.new(File.read(file)).result(binding)
     end
   else
-    puts "linking ~/.#{file}"
+    puts "\e[32mlinking\e[0m ~/.#{file}"
     system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
   end
 end
