@@ -24,7 +24,6 @@ export LANG=en_US.UTF-8
 
 # Customize to your needs...
 alias cls='clear'
-alias be='bundle exec'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
