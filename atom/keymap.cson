@@ -18,3 +18,14 @@
 #
 '.editor':
   'cmd-§': 'editor:toggle-line-comments'
+
+'atom-text-editor':
+  'ctrl-f': 'find-and-replace:show'
+  'cmd-f': 'core:delete'
+
+  'cmd-3': 'pane:split-right'
+  'cmd-4': 'pane:split-down'
+  'ctrl-s': 'window:focus-pane-below'
+  'ctrl-w': 'window:focus-pane-above'
+  'ctrl-a': 'window:focus-pane-on-left'
+  'ctrl-d': 'window:focus-pane-on-right'
