@@ -32,6 +32,7 @@ compdef _git gp=git-push
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gdh='git diff HEAD'
+alias gdf='git diff --name-only'
 compdef _git gd=git-diff
 
 alias gdm='git diff | grep "<<<<<"'
@@ -88,6 +89,8 @@ alias gls='git log --oneline'
 compdef _git glg=git-log
 alias gss='git status -s'
 compdef _git gss=git-status
+
+alias grs='git reset --soft'
 
 # alias grh='git reset HEAD'
 alias grh='git reset --hard'
