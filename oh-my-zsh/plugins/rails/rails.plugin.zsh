@@ -27,6 +27,9 @@ compdef _rake_command=rake
 alias be='bundle exec'
 alias karma='node_modules/karma/bin/karma start -single-run karma.coffee'
 
+# scrudu project
+alias preworker='QUEUE=question_group_preview bundle exec rake scrudu:work'
+
 alias devlog='tail -f log/development.log'
 alias prodlog='tail -f log/production.log'
 alias testlog='tail -f log/test.log'
