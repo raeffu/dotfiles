@@ -18,6 +18,7 @@
 #
 '.editor':
   'cmd-§': 'editor:toggle-line-comments'
+  'ctrl-shift-f': 'editor:auto-indent'
 
 'atom-text-editor':
   'ctrl-f': 'find-and-replace:show'

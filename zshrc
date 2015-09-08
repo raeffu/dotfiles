@@ -16,7 +16,7 @@ export DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(organization osx emacs git ruby rails brew gem)
+plugins=(organization osx git ruby rails brew gem)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -24,6 +24,7 @@ export LANG=en_US.UTF-8
 
 # Customize to your needs...
 alias cls='clear'
+alias e=emacs
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
