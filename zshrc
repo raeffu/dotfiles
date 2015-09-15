@@ -24,7 +24,7 @@ export LANG=en_US.UTF-8
 
 # Customize to your needs...
 alias cls='clear'
-alias e=emacs
+alias e=/usr/local/Cellar/emacs/24.5/bin/emacs
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

@@ -16,9 +16,15 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+'atom-workspace atom-text-editor:not(.mini)':
+  'alt-space': 'ergonomic-cursor:activate-selection'
+
 '.editor':
   'cmd-§': 'editor:toggle-line-comments'
   'ctrl-shift-f': 'editor:auto-indent'
+
+'.platform-darwin atom-text-editor':
+  'cmd-d': 'core:backspace'
 
 'atom-text-editor':
   'ctrl-f': 'find-and-replace:show'
