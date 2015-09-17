@@ -187,7 +187,7 @@
 	<key>LeftCommand</key>
 	<integer>2</integer>
 	<key>LeftOption</key>
-	<integer>2</integer>
+	<integer>7</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>MaxVertically</key>
@@ -220,9 +220,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>383 363 924 485 0 0 1680 1050 </string>
+	<string>906 476 924 485 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1680 1050 0 0 1680 1027 </string>
+	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -863,11 +863,11 @@
 			<key>Name</key>
 			<string>raeffu</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 11</string>
+			<string>Monaco 14</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 11</string>
+			<string>Monaco 14</string>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1774,7 +1774,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454852820.88699901</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>463992684.34447402</real>
+	<real>464165488.69722199</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1837,7 +1837,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-09-15T06:50:46Z</date>
+	<date>2015-09-17T06:50:48Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
