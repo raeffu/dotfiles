@@ -177,4 +177,4 @@ build_prompt() {
 }
 
 PROMPT='%{%f%b%k%}$(build_prompt) '
-RPS1='%{$fg[cyan]%}%~%{$reset_color%} '
+RPS1='%{$fg[blue]%}%~%{$reset_color%} '
