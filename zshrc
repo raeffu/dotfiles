@@ -3,10 +3,10 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="agnoster-raeffu"
+# export ZSH_THEME="agnoster-raeffu"
 export DEFAULT_USER="rlaubscher"
 # export ZSH_THEME="miloshadzic"
-# export ZSH_THEME="raeffu"
+export ZSH_THEME="raeffu"
 # export ZSH_THEME="robyrussell"
 
 # Set to this to use case-sensitive completion
