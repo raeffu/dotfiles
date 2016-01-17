@@ -47,6 +47,9 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 # Homebrew
 PATH="/usr/local/bin:$PATH"
 
+# git diff-highlight
+PATH="~/projects/dotfiles/:$PATH"
+
 export PATH
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

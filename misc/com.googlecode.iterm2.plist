@@ -876,11 +876,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1639 540 450 101 0 0 2560 1417 </string>
+	<string>1639 242 603 265 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>518 427 924 485 0 0 1680 1050 </string>
+	<string>1376 708 924 485 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1680 1050 0 0 1680 1027 </string>
+	<string>0 0 2560 1440 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1041,11 +1041,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.15010812878608704</real>
+				<real>0.16743060946464539</real>
 				<key>Green Component</key>
-				<real>0.14403018355369568</real>
+				<real>0.15875515341758728</real>
 				<key>Red Component</key>
-				<real>0.1392836719751358</real>
+				<real>0.15435385704040527</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1115,11 +1115,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.85098040103912354</real>
+				<real>0.8238411545753479</real>
 				<key>Green Component</key>
-				<real>0.84705883264541626</real>
+				<real>0.81589484214782715</real>
 				<key>Red Component</key>
-				<real>0.82352942228317261</real>
+				<real>0.78987330198287964</real>
 			</dict>
 			<key>Guid</key>
 			<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
@@ -2432,7 +2432,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454852820.88699901</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>469524166.99426401</real>
+	<real>473584489.30904299</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -2495,7 +2495,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-18T07:18:15Z</date>
+	<date>2016-01-04T06:56:47Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
