@@ -15,6 +15,9 @@ export ZSH_THEME="raeffu"
 # Comment this out to disable weekly auto-update checks
 export DISABLE_AUTO_UPDATE="true"
 
+# Homebrew
+export HOMEBREW_NO_ANALYTICS=1
+
 # Uncomment following line if you want to disable colors in ls
 # export DISABLE_LS_COLORS="true"
 
@@ -46,9 +49,10 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 # Homebrew
 PATH="/usr/local/bin:$PATH"
+# PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 # git diff-highlight
-PATH="~/projects/dotfiles/:$PATH"
+PATH="~/projects/dotfiles:$PATH"
 
 export PATH
 
