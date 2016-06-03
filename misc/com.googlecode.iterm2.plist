@@ -3240,7 +3240,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1300 304 929 461 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>419 493 606 456 0 0 1680 1050 </string>
+	<string>419 522 606 456 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1680 1050 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -3308,12 +3308,16 @@
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56363654136657715</real>
+				<real>0.59607843137254901</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.56485837697982788</real>
+				<real>0.63137254901960782</real>
 				<key>Red Component</key>
-				<real>0.50599193572998047</real>
+				<real>0.19607843137254902</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
