@@ -31,6 +31,7 @@ export LANG=en_US.UTF-8
 
 # Customize to your needs...
 alias cls='clear'
+alias ls='ls --color'
 alias e=/usr/local/Cellar/emacs/24.5/bin/emacs
 alias ec='emacsclient -t'
 
@@ -49,7 +50,8 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 # Homebrew
 PATH="/usr/local/bin:$PATH"
-# PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
