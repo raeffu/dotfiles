@@ -32,7 +32,7 @@ export LANG=en_US.UTF-8
 # Customize to your needs...
 alias cls='clear'
 alias ls='ls --color'
-alias e=/usr/local/Cellar/emacs/24.5/bin/emacs
+alias e='emacsclient -t'
 alias ec='emacsclient -t'
 
 unsetopt auto_name_dirs
