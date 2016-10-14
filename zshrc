@@ -38,7 +38,8 @@ alias ec='emacsclient -t'
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-
+# Java settings
+export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 # Setting PATH env var
 
