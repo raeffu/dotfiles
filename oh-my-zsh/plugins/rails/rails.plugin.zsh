@@ -46,7 +46,7 @@ alias rg='rails generate'
 alias rgm='rails generate migration'
 alias rp='rails plugin'
 alias ru='rails runner'
-alias rs='rails server'
+alias rs='bundle exec rails s'
 alias rsd='rails server --debugger'
 
 # Rake aliases

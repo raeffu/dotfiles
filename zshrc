@@ -43,6 +43,8 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 # Setting PATH env var
 
+export GITHUB_PAT="$(cat /Users/rlaubscher/Projects/dotfiles/.github-pat)"
+
 # Added by the Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
 
@@ -51,7 +53,7 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 # Homebrew
 PATH="/usr/local/bin:$PATH"
-PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+PATH="/usr/local/Cellar/coreutils/8.24/libexec/gnubin:/usr/local/bin:$PATH"
 eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # git diff-highlight
