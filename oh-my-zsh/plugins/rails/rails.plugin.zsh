@@ -48,6 +48,7 @@ alias rp='rails plugin'
 alias ru='rails runner'
 alias rs='bundle exec rails s'
 alias rsd='rails server --debugger'
+alias rspec='bundle exec rspec'
 
 # Rake aliases
 alias rdm='rake db:migrate'
