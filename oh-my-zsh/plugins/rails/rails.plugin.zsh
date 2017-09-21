@@ -14,7 +14,7 @@ function _rake_command () {
   if [ -e "bin/rake" ]; then
     bin/rake $@
   else
-    command rake $@
+    command bundle exec rake $@
   fi
 }
 
