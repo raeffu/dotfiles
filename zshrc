@@ -32,8 +32,8 @@ export LANG=en_US.UTF-8
 # Customize to your needs...
 alias cls='clear'
 alias ls='ls --color'
-alias e='emacsclient -t'
-alias ec='emacsclient -t'
+alias e='/usr/local/Cellar/emacs/25.1/bin/emacsclient'
+alias ec='/usr/local/Cellar/emacs/25.1/bin/emacsclient'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -44,6 +44,8 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 # Setting PATH env var
 
 export GITHUB_PAT="$(cat /Users/rlaubscher/Projects/dotfiles/.github-pat)"
+export EDITOR="/usr/local/Cellar/emacs/25.1/bin/emacsclient"
+export GIT_EDITOR="/usr/local/Cellar/emacs/25.1/bin/emacsclient"
 
 # Added by the Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
