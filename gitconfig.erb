@@ -8,6 +8,9 @@
   diff = auto
   status = auto
   branch = auto
+[color "status"]
+  changed = magenta
+  untracked = yellow
 [core]
   excludesfile = <%= ENV['HOME'] %>/.gitignore
   editor = emacsclient -t
@@ -15,7 +18,7 @@
 [apply]
   whitespace = nowarn
 [format]
-  pretty = %C(yellow)%h%Creset%C(green)%d%Creset %s %C(red)[%an]%Creset %C(cyan)[%cr]%Creset
+  pretty = %C(yellow)%h%Creset%C(cyan)%d%Creset %s %C(blue)[%an]%Creset %C(white)[%cr]%Creset
 [rerere]
   enabled = 1
 [push]
@@ -36,3 +39,5 @@
   defaultToUpstream = true
 [pager]
   diff = diff-highlight | less
+[log]
+  graphColors = "#ff6e67", "#5af78e", "#f4f99d", "#caa9fa", "#ff92d0", "#9aedfe"

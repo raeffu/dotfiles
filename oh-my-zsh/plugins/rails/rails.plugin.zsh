@@ -13,6 +13,8 @@ function _rails_command () {
 function _rake_command () {
   if [ -e "bin/rake" ]; then
     bin/rake $@
+  elif [[ $PWD = /Users/rlaubscher/Projects/eosce-analyzer ]]; then
+    rake $@
   else
     command bundle exec rake $@
   fi
