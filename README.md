@@ -1,6 +1,7 @@
-### Prerequisite
+### Prerequisites
 
-Install rake gem:
+* Install ruby
+* Install rake with
 ```
 > gem install rake
 ```
@@ -11,7 +12,7 @@ Install rake gem:
 > rake [install]
 ```
 
-To install emacs files (links all files or folders in .emacs.d/ )
+To link oh-my-zsh files (in ~/.oh-my-zsh) execute
 ```
-> rake emacs
+> rake zsh
 ```
