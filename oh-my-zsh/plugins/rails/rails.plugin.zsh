@@ -27,7 +27,7 @@ alias rake='_rake_command'
 compdef _rake_command=rake
 
 alias be='bundle exec'
-alias karma='node_modules/karma/bin/karma start -single-run karma.coffee'
+alias karma='node_modules/karma/bin/karma start -single-run karma.js'
 
 # scrudu project
 alias preworker='QUEUE=question_group_preview bundle exec rake scrudu:work'
@@ -66,6 +66,9 @@ alias rdmtc='rake db:migrate db:test:clone'
 alias rlc='rake log:clear'
 alias rn='rake notes'
 alias rr='rake routes'
+
+# Docker aliases
+alias dcr='docker exec -t -i scrudu_app_1'
 
 # legacy stuff
 alias ss='thin --stats "/thin/stats" start'

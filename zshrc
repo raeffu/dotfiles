@@ -53,6 +53,9 @@ PATH="/usr/local/heroku/bin:$PATH"
 # postgresql path
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
+# mysql MAMP
+alias mmysql='/Applications/MAMP/Library/bin/mysql'
+
 # Homebrew
 PATH="/usr/local/bin:$PATH"
 PATH="/usr/local/Cellar/coreutils/8.24/libexec/gnubin:/usr/local/bin:$PATH"
