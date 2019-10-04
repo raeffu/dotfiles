@@ -114,7 +114,7 @@ alias grv='git revert'
 # git rollback
 alias grb='git revert --no-commit'
 
-alias gg='git log --graph'
+alias gg='git log --graph --date=format:%d.%m.%Y'
 compdef _git gg=git-log
 
 alias gga='git log --graph --all --not refs/notes/build'

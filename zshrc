@@ -23,7 +23,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(organization osx git ruby rails brew gem)
+plugins=(organization osx git ruby rails brew gem docker docker-compose yarn)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -64,6 +64,11 @@ eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
 
+# PATH="/usr/local/opt/openssl/bin:$PATH"
+
 export PATH
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
