@@ -32,8 +32,8 @@ export LANG=en_US.UTF-8
 # Customize to your needs...
 alias cls='clear'
 alias ls='ls --color'
-alias e='/usr/local/Cellar/emacs/25.3/bin/emacsclient'
-alias ec='/usr/local/Cellar/emacs/25.3/bin/emacsclient'
+alias e='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
+alias ec='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -44,8 +44,8 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 # Setting PATH env var
 
 export GITHUB_PAT="$(cat /Users/rlaubscher/Projects/dotfiles/.github-pat)"
-export EDITOR="/usr/local/Cellar/emacs/25.3/bin/emacsclient"
-export GIT_EDITOR="/usr/local/Cellar/emacs/25.3/bin/emacsclient"
+export EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
+export GIT_EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
 
 # Added by the Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
@@ -63,6 +63,8 @@ eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
+
+PATH="/usr/local/opt/gettext/bin:$PATH"
 
 # PATH="/usr/local/opt/openssl/bin:$PATH"
 
