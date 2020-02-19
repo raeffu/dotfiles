@@ -7,7 +7,6 @@ export ZSH=$HOME/.oh-my-zsh
 export DEFAULT_USER="rlaubscher"
 # export ZSH_THEME="miloshadzic"
 export ZSH_THEME="raeffu"
-# export ZSH_THEME="robyrussell"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -31,7 +30,9 @@ export LANG=en_US.UTF-8
 
 # Customize to your needs...
 alias cls='clear'
+
 alias ls='ls --color'
+
 alias e='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
 alias ec='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
 
