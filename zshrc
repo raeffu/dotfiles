@@ -4,7 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # export ZSH_THEME="agnoster-raeffu"
-export DEFAULT_USER="rlaubscher"
+export DEFAULT_USER="raeffu"
 # export ZSH_THEME="miloshadzic"
 export ZSH_THEME="raeffu"
 
@@ -44,7 +44,7 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 # Setting PATH env var
 
-export GITHUB_PAT="$(cat /Users/rlaubscher/Projects/dotfiles/.github-pat)"
+export GITHUB_PAT="$(cat ~/Projects/dotfiles/.github-pat)"
 export EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
 export GIT_EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
 
@@ -59,7 +59,7 @@ alias mmysql='/Applications/MAMP/Library/bin/mysql'
 
 # Homebrew
 PATH="/usr/local/bin:$PATH"
-PATH="/usr/local/Cellar/coreutils/8.24/libexec/gnubin:/usr/local/bin:$PATH"
+PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # git diff-highlight
@@ -75,3 +75,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
