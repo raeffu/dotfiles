@@ -33,8 +33,8 @@ alias cls='clear'
 
 alias ls='ls --color'
 
-alias e='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
-alias ec='/usr/local/Cellar/emacs/26.3/bin/emacsclient'
+alias e='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
+alias ec='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -45,8 +45,8 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 # Setting PATH env var
 
 export GITHUB_PAT="$(cat ~/Projects/dotfiles/.github-pat)"
-export EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
-export GIT_EDITOR="/usr/local/Cellar/emacs/26.3/bin/emacsclient"
+export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 
 # Added by the Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
@@ -76,3 +76,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+eval "$(navi widget zsh)"
