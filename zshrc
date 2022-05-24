@@ -22,7 +22,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(organization osx git git-auto-fetch ruby rails brew gem docker docker-compose yarn)
+plugins=(organization macos git git-auto-fetch ruby rails brew gem docker docker-compose yarn)
 
 source $ZSH/oh-my-zsh.sh
 
