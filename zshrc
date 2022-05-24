@@ -80,10 +80,13 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 eval "$(navi widget zsh)"
+export PATH="/usr/local/opt/node@14/bin:$PATH"
+
 # Set typewritten ZSH as a prompt
 export TYPEWRITTEN_COLORS="git_branch:blue"
 autoload -U promptinit; promptinit
 prompt typewritten
+export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
