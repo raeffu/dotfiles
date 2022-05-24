@@ -83,3 +83,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
 
 eval "$(navi widget zsh)"
+# Set typewritten ZSH as a prompt
+export TYPEWRITTEN_COLORS="git_branch:blue"
+autoload -U promptinit; promptinit
+prompt typewritten
