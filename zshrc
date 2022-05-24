@@ -60,7 +60,12 @@ alias mmysql='/Applications/MAMP/Library/bin/mysql'
 # Homebrew
 PATH="/usr/local/bin:$PATH"
 PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
+PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
+
+# Doom emacs
+PATH="~/.emacs.d/bin:$PATH"
 
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
