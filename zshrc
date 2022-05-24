@@ -12,7 +12,7 @@ export ZSH_THEME="raeffu"
 # export CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-export DISABLE_AUTO_UPDATE="true"
+export DISABLE_AUTO_UPDATE="false"
 
 # Homebrew
 export HOMEBREW_NO_ANALYTICS=1
