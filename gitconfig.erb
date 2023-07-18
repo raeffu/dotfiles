@@ -12,7 +12,7 @@
   changed = magenta
   untracked = yellow
   localBranch = cyan
-  remoteBranch = yellow
+  remoteBranch = green
 [core]
   excludesfile = <%= ENV['HOME'] %>/.gitignore
   editor = emacsclient -t
@@ -39,7 +39,13 @@
 [merge]
   tool = ediff
   defaultToUpstream = true
+  conflictStyle = diff3
 [pager]
   diff = diff-highlight | less
 [log]
   graphColors = "#ff6e67", "#5af78e", "#f4f99d", "#caa9fa", "#ff92d0", "#9aedfe"
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
