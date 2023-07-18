@@ -51,9 +51,6 @@ export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 # Added by the Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
 
-# postgresql path
-PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
-
 # mysql MAMP
 alias mmysql='/Applications/MAMP/Library/bin/mysql'
 
@@ -74,6 +71,8 @@ PATH="/usr/local/opt/gettext/bin:$PATH"
 
 # PATH="/usr/local/opt/openssl/bin:$PATH"
 
+PATH="/Users/raeffu/.emacs.d/bin:$PATH"
+
 export PATH
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -83,10 +82,16 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 eval "$(navi widget zsh)"
-export PATH="/usr/local/opt/node@14/bin:$PATH"
+#export PATH="/usr/local/opt/node@14/bin:$PATH"
 
 # Set typewritten ZSH as a prompt
 export TYPEWRITTEN_COLORS="git_branch:blue"
 autoload -U promptinit; promptinit
 prompt typewritten
-export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# postgresql path
+export PATH="/usr/local/opt/postgresql@13/bin:$PATH"
