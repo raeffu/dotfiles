@@ -49,16 +49,17 @@ export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 
 # Added by the Heroku Toolbelt
-PATH="/usr/local/heroku/bin:$PATH"
+PATH="/opt/homebrew/heroku/bin:$PATH"
 
 # mysql MAMP
 alias mmysql='/Applications/MAMP/Library/bin/mysql'
 
 # Homebrew
-PATH="/usr/local/bin:$PATH"
-PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
-PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
-PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+# PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+PATH="/opt/homebrew/bin:$PATH"
+PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # Doom emacs
@@ -67,9 +68,9 @@ PATH="~/.emacs.d/bin:$PATH"
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
 
-PATH="/usr/local/opt/gettext/bin:$PATH"
+PATH="/opt/homebrew/opt/gettext/bin:$PATH"
 
-# PATH="/usr/local/opt/openssl/bin:$PATH"
+# PATH="/opt/homebrew/opt/openssl/bin:$PATH"
 
 PATH="/Users/raeffu/.emacs.d/bin:$PATH"
 
@@ -79,10 +80,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH="/usr/local/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 eval "$(navi widget zsh)"
-#export PATH="/usr/local/opt/node@14/bin:$PATH"
+#export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
 
 # Set typewritten ZSH as a prompt
 export TYPEWRITTEN_COLORS="git_branch:blue"
@@ -94,4 +95,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # postgresql path
-export PATH="/usr/local/opt/postgresql@13/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
