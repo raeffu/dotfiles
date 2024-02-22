@@ -33,8 +33,8 @@ alias cls='clear'
 
 alias ls='ls --color'
 
-alias e='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
-alias ec='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
+alias e='/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs'
+alias ec='/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -45,8 +45,10 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 # Setting PATH env var
 
 export GITHUB_PAT="$(cat ~/Projects/dotfiles/.github-pat)"
-export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
-export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+export GITHUB_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
+export EDITOR="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
+export VISUAL="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
+export GIT_EDITOR="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
 
 # Added by the Heroku Toolbelt
 PATH="/opt/homebrew/heroku/bin:$PATH"
@@ -63,7 +65,7 @@ PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 eval `dircolors ~/Projects/dotfiles/dircolors.ansi-universal`
 
 # Doom emacs
-PATH="~/.emacs.d/bin:$PATH"
+PATH="$HOME/.config/emacs/bin:$PATH"
 
 # git diff-highlight
 PATH="~/projects/dotfiles:$PATH"
@@ -71,8 +73,6 @@ PATH="~/projects/dotfiles:$PATH"
 PATH="/opt/homebrew/opt/gettext/bin:$PATH"
 
 # PATH="/opt/homebrew/opt/openssl/bin:$PATH"
-
-PATH="/Users/raeffu/.emacs.d/bin:$PATH"
 
 export PATH
 
@@ -82,7 +82,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
-eval "$(navi widget zsh)"
 #export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
 
 # Set typewritten ZSH as a prompt
