@@ -8,6 +8,7 @@
   diff = auto
   status = auto
   branch = auto
+	ui = true
 [color "status"]
   changed = magenta
   untracked = yellow
@@ -17,6 +18,7 @@
   excludesfile = <%= ENV['HOME'] %>/.gitignore
   editor = emacsclient -t
   autocrlf = input
+	pager = delta
 [apply]
   whitespace = nowarn
 [format]
@@ -39,9 +41,7 @@
 [merge]
   tool = ediff
   defaultToUpstream = true
-  conflictStyle = diff3
-[pager]
-  diff = diff-highlight | less
+  conflictStyle = zdiff3
 [log]
   graphColors = "#ff6e67", "#5af78e", "#f4f99d", "#caa9fa", "#ff92d0", "#9aedfe"
 [filter "lfs"]
@@ -49,3 +49,13 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+[diff]
+	algorithm = histogram
+	colormoved = zebra
+	colormovedws = allow-indentation-change
+[interactive]
+	diffFilter = delta --color-only --features=interactive
+[delta]
+  navigate = true
+	syntax-theme = TwoDark
+	diff-highlight = true
