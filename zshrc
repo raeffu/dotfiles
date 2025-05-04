@@ -33,9 +33,6 @@ alias cls='clear'
 
 alias ls='ls --color'
 
-alias e='/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs'
-alias ec='/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs'
-
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
@@ -46,9 +43,10 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 export GITHUB_PAT="$(cat ~/Projects/dotfiles/.github-pat)"
 export GITHUB_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
-export EDITOR="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
-export VISUAL="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
-export GIT_EDITOR="/opt/homebrew/opt/emacs-mac/bin/emacsclient -r -n -a emacs"
+export PERSONAL_ACCESS_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
+export EDITOR="nvim"
+export VISUAL="nvim"
+export GIT_EDITOR="nvim"
 
 # Added by the Heroku Toolbelt
 PATH="/opt/homebrew/heroku/bin:$PATH"
@@ -95,3 +93,17 @@ export NVM_DIR="$HOME/.nvm"
 
 # postgresql path
 export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/raeffu/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# lazygit
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# rbenv
+export PATH=$PATH:$GEM_HOME/bin

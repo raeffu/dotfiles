@@ -16,7 +16,7 @@
   remoteBranch = green
 [core]
   excludesfile = <%= ENV['HOME'] %>/.gitignore
-  editor = emacsclient -t
+  editor = nvim
   autocrlf = input
 	pager = delta
 [apply]
@@ -34,7 +34,7 @@
   user = <%= print("GitHub Username: "); STDOUT.flush; STDIN.gets.chomp %>
   token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
 [mergetool "ediff"]
-  cmd = emacsclient --eval \"(git-mergetool-emacsclient-ediff \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" \\\"$MERGED\\\")\"
+  cmd = nvim
   trustExitCode = true
 [mergetool]
   prompt = false
@@ -59,3 +59,5 @@
   navigate = true
 	syntax-theme = TwoDark
 	diff-highlight = true
+[init]
+	defaultBranch = master

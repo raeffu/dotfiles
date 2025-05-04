@@ -1,13 +1,13 @@
 require 'rake'
 require 'erb'
 
-task :default => :install
+task default: :install
 
 desc "install the dot files into user's home directory"
 task :install do
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README.md LICENSE misc windows oh-my-zsh .emacs.d].include? file
+    next if %w[Rakefile README.md LICENSE misc windows oh-my-zsh .emacs.d nvim].include? file
 
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"))
       if File.identical? file, File.join(ENV['HOME'], ".#{file.sub('.erb', '')}")
@@ -34,17 +34,16 @@ task :install do
   end
 end
 
-desc "link oh-my-zsh files from ~/projects/dotfiles/oh-my-zsh to ~/.oh-my-zsh. dotfiles overwrites .oh-my-zsh for given files."
+desc 'link oh-my-zsh files from ~/projects/dotfiles/oh-my-zsh to ~/.oh-my-zsh. dotfiles overwrites .oh-my-zsh for given files.'
 task :zsh do
-  replace_all = false
   Dir['oh-my-zsh/*'].each do |file|
     traverse_omz(file)
   end
 end
 
 def traverse_omz(path)
-  if(File.directory?(path))
-    Dir[path+"/*"].each do |file|
+  if File.directory?(path)
+    Dir[path + '/*'].each do |file|
       traverse_omz(file)
     end
   else
@@ -53,7 +52,7 @@ def traverse_omz(path)
 end
 
 def replace_file(file)
-  system %Q{rm -rf "$HOME/.#{file.sub('.erb', '')}"}
+  system %(rm -rf "$HOME/.#{file.sub('.erb', '')}")
   link_file(file)
 end
 
@@ -65,6 +64,6 @@ def link_file(file)
     end
   else
     puts "\e[32mlinking\e[0m ~/.#{file}"
-    system %Q{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
+    system %(ln -s "$PWD/#{file}" "$HOME/.#{file}")
   end
 end
