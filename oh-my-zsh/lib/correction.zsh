@@ -1,14 +1,11 @@
-alias man='nocorrect man'
-alias mv='nocorrect mv'
-alias mysql='nocorrect mysql'
-alias mkdir='nocorrect mkdir'
-alias gist='nocorrect gist'
-alias heroku='nocorrect heroku'
-alias ebuild='nocorrect ebuild'
-alias hpodder='nocorrect hpodder'
-alias c='nocorrect c'
-alias sudo='nocorrect sudo'
-
 if [[ "$ENABLE_CORRECTION" == "true" ]]; then
+  alias cp='nocorrect cp'
+  alias man='nocorrect man'
+  alias mkdir='nocorrect mkdir'
+  alias mv='nocorrect mv'
+  alias sudo='nocorrect sudo'
+  alias su='nocorrect su'
+  alias c='nocorrect c'
+
   setopt correct_all
 fi
