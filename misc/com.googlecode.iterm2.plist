@@ -2794,7 +2794,7 @@
 			<key>Text</key>
 			<string>5711DD0E-CADB-4C89-A97C-CCEB8A72B257</string>
 		</dict>
-		<key>0x68-0x80000-0x4</key>
+		<key>0x48-0xa0000-0x4</key>
 		<dict>
 			<key>Action</key>
 			<integer>18</integer>
@@ -2807,7 +2807,7 @@
 			<key>Version</key>
 			<integer>2</integer>
 		</dict>
-		<key>0x6a-0x80000-0x26</key>
+		<key>0x4a-0xa0000-0x26</key>
 		<dict>
 			<key>Action</key>
 			<integer>21</integer>
@@ -2820,7 +2820,7 @@
 			<key>Version</key>
 			<integer>2</integer>
 		</dict>
-		<key>0x6b-0x80000-0x28</key>
+		<key>0x4b-0xa0000-0x28</key>
 		<dict>
 			<key>Action</key>
 			<integer>20</integer>
@@ -2833,7 +2833,7 @@
 			<key>Version</key>
 			<integer>2</integer>
 		</dict>
-		<key>0x6c-0x80000-0x25</key>
+		<key>0x4c-0xa0000-0x25</key>
 		<dict>
 			<key>Action</key>
 			<integer>19</integer>
@@ -2954,6 +2954,8 @@
 			<false/>
 			<key>Allow Title Setting</key>
 			<true/>
+			<key>Allow modifyOtherKeys</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Animate Movement</key>
@@ -4373,6 +4375,8 @@
 			</dict>
 			<key>Left Command Key</key>
 			<integer>0</integer>
+			<key>Left Option Key Changeable</key>
+			<false/>
 			<key>Link Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -4462,6 +4466,8 @@
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
+			<key>Right Option Key Changeable</key>
+			<false/>
 			<key>Right Option Key Sends</key>
 			<integer>2</integer>
 			<key>Rows</key>
