@@ -41,6 +41,12 @@ task :zsh do
   end
 end
 
+desc 'link lazyvim config'
+task :lazyvim do
+  puts "\e[32mlinking\e[0m ~/.config/nvim/lua to dotfiles/nvim/lua"
+  system %(ln -s "$PWD/nvim/lua" "$HOME/.config/nvim/")
+end
+
 def traverse_omz(path)
   if File.directory?(path)
     Dir[path + '/*'].each do |file|
