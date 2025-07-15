@@ -8,11 +8,11 @@ return {
 
 			vim.keymap.set("n", "<localleader>c", function()
 				vim.fn["jsonpath#echo"]()
-			end, { desc = "Copy json path", buffer = true, silent = true })
+			end, { desc = "Copy json path" })
 
 			vim.keymap.set("n", "<localleader>g", function()
 				vim.fn["jsonpath#goto"]()
-			end, { desc = "Goto json path", buffer = true, silent = true })
+			end, { desc = "Goto json path" })
 		end,
 	},
 }
