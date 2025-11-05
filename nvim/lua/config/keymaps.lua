@@ -7,6 +7,6 @@ vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 
 -- Yank current file path to clipboard
 vim.keymap.set("n", "<leader>fy", function()
-  vim.fn.setreg("+", vim.fn.expand("%"))
-  vim.notify("Copied file path to clipboard: " .. vim.fn.expand("%"))
+	vim.fn.setreg("+", vim.fn.expand("%"))
+	vim.notify("Copied file path to clipboard: " .. vim.fn.expand("%"))
 end, { desc = "Yank file path" })
