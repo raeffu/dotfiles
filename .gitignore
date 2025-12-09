@@ -2,3 +2,4 @@ doc/*
 emacs.d/backup/
 emacs.d/backup.*
 .github-pat
+node_modules/
