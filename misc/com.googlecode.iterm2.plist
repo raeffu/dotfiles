@@ -7129,6 +7129,8 @@
 	<true/>
 	<key>ShowPaneTitles</key>
 	<false/>
+	<key>ShowSecureKeyboardEntryIndicator</key>
+	<false/>
 	<key>SkalaPickerTextColourFormat</key>
 	<integer>4</integer>
 	<key>SmartPlacement</key>
