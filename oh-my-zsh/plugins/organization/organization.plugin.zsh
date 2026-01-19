@@ -3,7 +3,7 @@ function h () {
 }
 
 function c () {
-  cd ~/Projects/$1;
+  cd ~/projects/$1;
 }
 
 function _h () {
@@ -11,7 +11,7 @@ function _h () {
 }
 
 function _c () {
-  _files -W ~/Projects -/
+  _files -W ~/projects -/
 }
 
 compdef _h h
