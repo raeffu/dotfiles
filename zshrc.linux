@@ -1,0 +1,57 @@
+# Path to your oh-my-zsh configuration.
+export ZSH=$HOME/.oh-my-zsh
+
+# Set to the name theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# export ZSH_THEME="agnoster-raeffu"
+export DEFAULT_USER="raeffu"
+# export ZSH_THEME="miloshadzic"
+export ZSH_THEME=""
+
+# Set to this to use case-sensitive completion
+# export CASE_SENSITIVE="true"
+
+# Comment this out to disable weekly auto-update checks
+export DISABLE_AUTO_UPDATE="false"
+
+# Homebrew
+export HOMEBREW_NO_ANALYTICS=1
+
+# Uncomment following line if you want to disable colors in ls
+# export DISABLE_LS_COLORS="true"
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(organization git git-auto-fetch gh gem docker docker-compose ssh)
+
+source $ZSH/oh-my-zsh.sh
+
+export LANG=en_US.UTF-8
+
+# Customize to your needs...
+alias cls='clear'
+
+alias ls='ls --color'
+
+# Setting PATH env var
+
+export GITHUB_PAT="$(cat ~/projects/dotfiles/.github-pat)"
+export GITHUB_TOKEN="$(cat ~/projects/dotfiles/.github-pat)"
+export PERSONAL_ACCESS_TOKEN="$(cat ~/projects/dotfiles/.github-pat)"
+export EDITOR="nvim"
+export VISUAL="nvim"
+export GIT_EDITOR="nvim"
+
+# git diff-highlight
+PATH="~/projects/dotfiles:$PATH"
+
+export PATH
+
+# Set typewritten ZSH as a prompt
+fpath+=$HOME/.zsh/typewritten
+export TYPEWRITTEN_COLORS="git_branch:blue"
+autoload -U promptinit; promptinit
+prompt typewritten
+
+# lazygit
+export XDG_CONFIG_HOME="$HOME/.config"
