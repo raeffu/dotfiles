@@ -28,15 +28,19 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 
+zstyle ':completion:*:*:git:*' tag-order 'all-commands'
+
 # Customize to your needs...
 alias cls='clear'
-
+alias gs='git status --short'
 alias ls='ls --color'
+alias lg='lazygit'
 
 # Setting PATH env var
 
 export GITHUB_PAT="$(cat ~/projects/dotfiles/.github-pat)"
 export GITHUB_TOKEN="$(cat ~/projects/dotfiles/.github-pat)"
+export GITHUB_COPILOT_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
 export PERSONAL_ACCESS_TOKEN="$(cat ~/projects/dotfiles/.github-pat)"
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -55,3 +59,21 @@ prompt typewritten
 
 # lazygit
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# snap bin's
+export PATH=$PATH:/snap/bin
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+autoload -U compinit
+compinit -i
+
+# pnpm
+export PNPM_HOME="/home/raeffu/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

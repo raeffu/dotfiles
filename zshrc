@@ -28,10 +28,13 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 
+zstyle ':completion:*:*:git:*' tag-order 'all-commands'
+
 # Customize to your needs...
 alias cls='clear'
-
+alias gs='git status --short'
 alias ls='ls --color'
+alias lg='lazygit'
 
 unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
@@ -43,6 +46,7 @@ export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 export GITHUB_PAT="$(cat ~/Projects/dotfiles/.github-pat)"
 export GITHUB_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
+export GITHUB_COPILOT_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
 export PERSONAL_ACCESS_TOKEN="$(cat ~/Projects/dotfiles/.github-pat)"
 export EDITOR="nvim"
 export VISUAL="nvim"
